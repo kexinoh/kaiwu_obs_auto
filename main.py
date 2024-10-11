@@ -4,6 +4,8 @@ import zipfile
 import psutil
 import subprocess
 
+##pip install obs-websocket-py
+
 from obswebsocket import obsws, requests
 
 # OBS WebSocket服务器的配置
