@@ -26,7 +26,7 @@ def start_obs():
     ws = obsws(host, port, password)
     ws.connect()
     # 启动场景
-    ws.call(requests.SetCurrentScene())  # 替换为实际的场景名称
+    ws.call(requests.SetCurrentScene())  
     print("OBS已启动并切换到场景")
     ws.call(requests.StartRecord())  # 开始录制
     print("已经启动录制")
