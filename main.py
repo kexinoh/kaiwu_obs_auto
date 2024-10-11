@@ -67,6 +67,7 @@ if __name__ == "__main__":
     total_files_unzipped = 0
     for zip_file in zip_files:
         folder_name = zip_file[:-4]
+        print(f"开始启动{folder_name}对局")
         folder_path = os.path.join(dest_dir, folder_name)
         os.makedirs(folder_path, exist_ok=True)
 
